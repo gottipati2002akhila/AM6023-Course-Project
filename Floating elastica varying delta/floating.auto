@@ -1,0 +1,7 @@
+floating = load('floating')
+delta = run(floating)
+delta  = relabel(delta )
+save(delta, 'delta')
+p = plot(delta)
+clean()
+wait()

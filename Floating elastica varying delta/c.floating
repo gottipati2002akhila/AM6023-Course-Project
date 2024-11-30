@@ -1,0 +1,10 @@
+unames = {1:'nx', 2:'ny', 3:'theta', 4:'thetap',5:'x', 6:'y'} 
+parnames = {1:'delta' ,2:'p', 3:'ym'}
+NDIM=   6, IPS =   4, IRS =   0, ILP =   1
+ICP =  ['delta',2,3]
+NTST=  200, NCOL=   4, IAD =   3, ISP =   2, ISW = 1, IPLT= 0, NBC= 6, NINT= 0
+NMX=  5000, NPR=  20, MXBF=  100, IID =   2, ITMX= 8, ITNW= 5, NWTN= 3, JAC= 0
+EPSL= 1e-6, EPSU = 1e-6, EPSS =0.0001
+DS  =  0.01, DSMIN= 0.001, DSMAX=   0.1, IADS=  1
+NPAR = 3, THL =  {}, THU =  {}
+UZSTOP ={1:[0,3]}
